@@ -103,7 +103,7 @@ const useStyles = makeStyles(theme => ({
     '& .main_footer': {
       '&.dark': {
         backgroundColor: 'black !important',
-        '& .MuiTypography-body2:not(.green)': {
+        '& .MuiTypography-body2:not(.green):not(.red)': {
           color: 'white !important'
         }
       },
